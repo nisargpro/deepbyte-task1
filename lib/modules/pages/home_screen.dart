@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:product_list/helper/constants.dart';
 import 'package:product_list/modules/controller/home_screen_controller.dart';
 import 'package:product_list/modules/pages/details_page.dart';
 
@@ -11,7 +12,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetBuilder<HomePageController>(builder: (controller){
       return Scaffold(
-        backgroundColor: Colors.blueAccent.shade200,
+        backgroundColor: Colors.blueGrey,
         appBar: AppBar(
           title: Text("Product List",style: TextStyle(color: Colors.black),),
           centerTitle: true,
@@ -28,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                       margin: EdgeInsets.all(8),
                       height: 100,
                       decoration: BoxDecoration(
-                          color: Colors.blue.shade100,
+                          color: Constants.yellowColor,
                           borderRadius: BorderRadius.circular(15)
                       ),
                       child: Row(

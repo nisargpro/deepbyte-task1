@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:product_list/helper/constants.dart';
 import 'package:product_list/modules/controller/home_screen_controller.dart';
 import 'package:product_list/modules/model/ListModel.dart';
 
@@ -27,7 +28,7 @@ class DetailsPage extends StatelessWidget {
                   padding: EdgeInsets.all(12),
                   height: 250,
                   decoration: BoxDecoration(
-                      color: Colors.grey.shade300,
+                      color: Constants.buttonColor,
                       borderRadius: BorderRadius.circular(15)),
                   child: Center(
                     child: Column(
