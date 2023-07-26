@@ -1,5 +1,3 @@
-/// data : [{"title":"Test1","price":15.02,"image":"https://res.cloudinary.com/dbrvq9uxa/image/upload/v1689329941/images/image/zk8dpahejxhmgqrptxy7.jpg","description":"orem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available"},{"title":"Test1","price":15.02,"image":"https://res.cloudinary.com/dbrvq9uxa/image/upload/v1689329941/images/image/zk8dpahejxhmgqrptxy7.jpg","description":"orem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available"},{"title":"Test1","price":15.02,"image":"https://res.cloudinary.com/dbrvq9uxa/image/upload/v1689329941/images/image/zk8dpahejxhmgqrptxy7.jpg","description":"orem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available"},{"title":"Test1","price":15.02,"image":"https://res.cloudinary.com/dbrvq9uxa/image/upload/v1689329941/images/image/zk8dpahejxhmgqrptxy7.jpg","description":"orem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available"}]
-
 class ListModel {
   ListModel({
       this.data,});
@@ -23,11 +21,6 @@ class ListModel {
   }
 
 }
-
-/// title : "Test1"
-/// price : 15.02
-/// image : "https://res.cloudinary.com/dbrvq9uxa/image/upload/v1689329941/images/image/zk8dpahejxhmgqrptxy7.jpg"
-/// description : "orem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available"
 
 class Data {
   Data({
